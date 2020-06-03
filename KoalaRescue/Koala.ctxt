@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Koala
+comment0.text=\n\ Write\ a\ description\ of\ class\ Koala\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=condition
+comment1.target=Koala(java.lang.String)
+numComments=2

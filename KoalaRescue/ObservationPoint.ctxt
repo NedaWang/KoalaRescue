@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ObservationPoint
+comment0.text=\n\ Write\ a\ description\ of\ class\ ObservationPoint\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=ObservationPoint()
+comment2.params=
+comment2.target=void\ initializeKoalas()
+comment3.params=
+comment3.target=java.util.ArrayList\ getTrees()
+comment4.params=
+comment4.target=double\ calculateEdibleLeaveWeight()
+comment5.params=
+comment5.target=void\ treesMonitor()
+comment6.params=type
+comment6.target=void\ treeDamageProcess(java.util.ArrayList)
+numComments=7

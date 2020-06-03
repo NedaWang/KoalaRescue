@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=KoalaRescue
+comment0.text=\n\ This\ is\ an\ entry\ for\ the\ whole\ project.\n\n\ @author\ (Neda)\n\ @version\ (01/06/2020)\n
+comment1.params=
+comment1.target=KoalaRescue()
+comment2.params=
+comment2.target=void\ welcome()
+comment3.params=
+comment3.target=void\ print()
+numComments=4

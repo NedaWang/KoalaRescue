@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Reserve
+comment0.text=\n\ Write\ a\ description\ of\ class\ Reserve\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Reserve()
+comment2.params=
+comment2.target=void\ initialise()
+comment3.params=
+comment3.target=ObservationPoint[]\ getObservationPoints()
+comment4.params=
+comment4.target=SafeHaven\ getSafeHaven()
+numComments=5
