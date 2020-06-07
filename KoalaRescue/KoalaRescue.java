@@ -10,12 +10,12 @@ public class KoalaRescue
 {
     Scanner scanner;
     String username;
-    float budget; 
+    Double budget; 
     private Reserve reserve;
     
     public KoalaRescue(){
         username = "";
-        budget = 0;
+        budget = 0.0;
         reserve = new Reserve();
         welcome();
     }
@@ -23,11 +23,33 @@ public class KoalaRescue
     public void welcome(){
         scanner = new Scanner(System.in);
         
-        System.out.println("welcome to Neda's tutorial~");
-        System.out.println("input your name please:");
-        username = scanner.nextLine();
-        System.out.println("input budget please:");
-        budget = Float.valueOf(scanner.nextLine());
+        System.out.println("Welcome to Neda's tutorial~");
+        boolean invalidName = true;
+        while (invalidName){
+            System.out.println("Input your name please:");
+            username = scanner.nextLine();
+            if (username.trim().length() > 0 && username.trim().length() <= 16){
+                invalidName = false;
+            }else{
+                System.out.println("Please enter an valid username.");
+            }
+        }
+        boolean invalidAmount = true;
+        while (invalidAmount){
+            System.out.println("Input budget please:");
+            String budgetString = scanner.nextLine();
+            if (budgetString.matches("\\d+\\.?\\d*")){
+                budget = Double.valueOf(budgetString);
+                if (budget >= 100 && budget <= 200){
+                    invalidAmount = false;
+                }else{
+                    System.out.println("Budget should between 100 and 200");
+                }
+            }else{
+                System.out.println("Input is an invalid number.");
+            }
+        }
+        startMission();
     }
     
     public void print(){
@@ -35,6 +57,9 @@ public class KoalaRescue
         System.out.println("budget: " + budget);
     }
     
+    public void startMission(){
+        reserve.misstion(budget);
+    }
   
     
 }

@@ -24,4 +24,20 @@ public class RandomNumber
     public static int generateNumberOfPredator(){
         return new Random().nextInt(5);
     }
+    
+    public static int generateKoalaAge(){
+        return (new Random().nextInt(18))+1;
+    }
+    
+    public static boolean generate80percent(){
+        return (new Random().nextInt(100))<80;
+    }
+    
+    public static boolean generate20percent(){
+        return (new Random().nextInt(100))<20;
+    }
+    
+    public static boolean generate50percent(){
+        return (new Random().nextInt(100))<50;
+    }
 }
